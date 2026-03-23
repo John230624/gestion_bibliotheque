@@ -285,31 +285,6 @@ Si besoin, relancer aussi le frontend :
 cd frontend
 npm run dev
 ```
-
-## Mise sur GitHub depuis VS Code
-
-### Methode interface VS Code
-
-1. ouvrir le dossier `Sylvere` dans VS Code
-2. aller dans `Source Control`
-3. initialiser Git si necessaire
-4. effectuer le premier commit
-5. cliquer sur `Publish to GitHub`
-6. choisir `Public` ou `Private`
-
-### Methode terminal VS Code
-
-Depuis la racine du projet :
-
-```bash
-git init
-git add .
-git commit -m "Initialisation du projet Biblio"
-git branch -M main
-git remote add origin <URL_DU_REPO>
-git push -u origin main
-```
-
 ## Recommandation pour la personne qui teste
 
 Pour eviter les erreurs de demarrage :
